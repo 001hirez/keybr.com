@@ -17,7 +17,6 @@ import {
 import { type ReactNode } from "react";
 import { FormattedMessage, useIntl } from "react-intl";
 import { LessonLengthProp } from "./LessonLengthProp.tsx";
-import { TargetSpeedProp } from "./TargetSpeedProp.tsx";
 
 export function BooksLessonSettings({
   lesson,
@@ -67,7 +66,6 @@ export function BooksLessonSettings({
         />
         <Spacer size={3} />
         <BookTextProcessing />
-        <TargetSpeedProp />
         <LessonLengthProp />
       </FieldSet>
     </>

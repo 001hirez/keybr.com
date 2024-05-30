@@ -18,7 +18,7 @@ import { type ReactNode, useMemo } from "react";
 import { FormattedMessage, useIntl } from "react-intl";
 import { exampleTexts } from "./example-texts.ts";
 import { LessonLengthProp } from "./LessonLengthProp.tsx";
-import { TargetSpeedProp } from "./TargetSpeedProp.tsx";
+import { ZonesFilterProp } from "./ZonesFilterProp.tsx";
 
 export function CustomTextLessonSettings({
   lesson,
@@ -47,7 +47,7 @@ export function CustomTextLessonSettings({
           customText={settings.get(lessonProps.customText.content)}
         />
         <CustomTextProcessing />
-        <TargetSpeedProp />
+        <ZonesFilterProp />
         <LessonLengthProp />
       </FieldSet>
     </>

@@ -23,7 +23,8 @@ export class WordListLesson extends Lesson {
     super(settings, keyboard, model);
     const wordListSize = settings.get(lessonProps.wordList.wordListSize);
     const longWordsOnly = settings.get(lessonProps.wordList.longWordsOnly);
-    this.wordList = filterWordList(wordList, this.codePoints)
+    const zones = settings.get(lessonProps.zones);
+    this.wordList = filterWordList(wordList, this.keyboard.getCodePoints(zones))
       .filter((word) => !longWordsOnly || word.length > 3)
       .slice(0, wordListSize);
   }
