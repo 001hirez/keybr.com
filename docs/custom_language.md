@@ -1,10 +1,27 @@
 # Thai
 
-Translated: 427 messages, 5103 words
+Translated: 254 messages, 2227 words
 
-Untranslated: 4 messages, 26 words
+Untranslated: 163 messages, 2810 words
 
+* *GO!*
 * *Books*
-* *Explain charts*
-* *Hide explanations*
-* *Generate typing lessons from the text of a book. All keys ar...*
+* *Font:*
+* *Metrics*
+* *Layouts*
+* *Not set*
+* *Volume:*
+* *Syntax:*
+* *Progress*
+* *Translate*
+* *Alphabet:*
+* *Language:*
+* *Examples:*
+* *No Sounds*
+* *Top score!*
+* *Top speed!*
+* *Last speed*
+* *My Profile*
+* *Box cursor*
+* *All Sounds*
+* ...
